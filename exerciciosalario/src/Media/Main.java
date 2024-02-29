@@ -35,10 +35,14 @@ public class Main {
                 System.out.println("Aluno(a) reprovado(a)");
             }
 
+            if (aluno.getMedia() >4 && aluno.getMedia()< 7) {
+                System.out.println("Aluno(a) na Final.");
+            }
+
 
             System.out.println("Nome Completo: " + aluno.getNomeCompleto());
             System.out.println("A Média foi de: " + aluno.getMedia());
-            System.out.println("As notas do(a) Aluno(a)" + aluno.getNomeCompleto() + "Foram: " + aluno.getNota1() + aluno.getNota2() + aluno.getNota3() );
+             System.out.println("As notas do(a) Aluno(a)" + aluno.getNomeCompleto() + "Foram: " + aluno.getNota1()  + ", "  + aluno.getNota2()  + " e " + aluno.getNota3() );
 
 
 
